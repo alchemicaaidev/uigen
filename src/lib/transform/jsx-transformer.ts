@@ -388,6 +388,23 @@ export function createPreviewHTML(
   </script>
 </head>
 <body>
+  <script>
+    // Forward pointer events to the parent window so the resizable panel library
+    // can detect when a drag ends inside the iframe and clear its drag state.
+    // Without this, releasing the mouse inside the iframe leaves pointer-events:none
+    // on all panels, making the Preview/Code toggle buttons unresponsive.
+    (function () {
+      function fwd(type, init) {
+        try { window.parent.document.body.dispatchEvent(new PointerEvent(type, init)); } catch (_) {}
+      }
+      document.addEventListener('pointerup', function () {
+        fwd('pointerup', { bubbles: true, cancelable: true });
+      }, true);
+      document.addEventListener('pointermove', function (e) {
+        if (e.buttons === 0) fwd('pointermove', { bubbles: true, buttons: 0 });
+      }, { capture: true, passive: true });
+    })();
+  </script>
   ${errors.length > 0 ? `
     <div class="syntax-errors">
       <h3>
