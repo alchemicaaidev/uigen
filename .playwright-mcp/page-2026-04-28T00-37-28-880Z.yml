@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: Create a user profile card with an avatar, name, role, bio, and social media links
+            - img [ref=e59]
+          - generic [ref=e62]:
+            - img [ref=e65]
+            - generic [ref=e70]:
+              - paragraph [ref=e72]: This is a static response. You can place an Anthropic API key in the .env file to use the Anthropic API for component generation. Let me create an App.jsx file to display the component.
+              - generic [ref=e75]: Creating App.jsx
+              - separator [ref=e76]
+              - paragraph [ref=e78]: I'll create a ProfileCard component for you.
+              - generic [ref=e81]: Creating ProfileCard.jsx
+              - separator [ref=e82]
+              - paragraph [ref=e84]: Now let me enhance the component with better styling.
+              - generic [ref=e87]: Editing ProfileCard.jsx
+              - separator [ref=e88]
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: "Perfect! I've created:"
+                - list [ref=e91]:
+                  - listitem [ref=e92]: "**ProfileCard."
+              - generic [ref=e93]:
+                - img [ref=e94]
+                - generic [ref=e96]: Generating...
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e97]:
+        - generic [ref=f8e6]:
+          - img "Sophie Anderson" [ref=f8e7]
+          - heading "Sophie Anderson" [level=2] [ref=f8e8]
+          - paragraph [ref=f8e9]: Senior Product Designer
+          - paragraph [ref=f8e10]: Crafting intuitive digital experiences at the intersection of design and technology. 5+ years turning complex problems into elegant solutions.
+          - generic [ref=f8e11]:
+            - generic [ref=f8e12]:
+              - paragraph [ref=f8e13]: "142"
+              - paragraph [ref=f8e14]: Projects
+            - generic [ref=f8e15]:
+              - paragraph [ref=f8e16]: 8.4k
+              - paragraph [ref=f8e17]: Followers
+            - generic [ref=f8e18]:
+              - paragraph [ref=f8e19]: "312"
+              - paragraph [ref=f8e20]: Following
+          - generic [ref=f8e21]:
+            - link "🐦 Twitter" [ref=f8e22] [cursor=pointer]:
+              - /url: "#"
+            - link "💼 LinkedIn" [ref=f8e23] [cursor=pointer]:
+              - /url: "#"
+            - link "🐙 GitHub" [ref=f8e24] [cursor=pointer]:
+              - /url: "#"
+          - button "Follow" [ref=f8e25] [cursor=pointer]
+  - alert [ref=e46]

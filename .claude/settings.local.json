@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm audit *)",
+      "Bash(npm ls *)",
+      "Bash(npm install *)",
+      "Bash(npm view *)",
+      "Bash(npm run *)",
+      "Bash(git stash *)",
+      "Bash(echo \"PID: $!\")",
+      "mcp__playwright"
+    ]
+  }
+}

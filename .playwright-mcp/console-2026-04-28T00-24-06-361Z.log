@@ -1,0 +1,4 @@
+[    1781ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[    2881ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://signup.livenation.com/karolg:0
+[    3019ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://signup.livenation.com/karolg:0
+[    3040ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://signup.livenation.com/karolg:0
